@@ -9,6 +9,6 @@ import buttonVue from './Button.vue';
 </template>
 <style scoped lang="scss">
 .container{
-   color: red;
+   color:$primaryColor ;
 }
 </style>

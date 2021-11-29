@@ -1,5 +1,7 @@
 <template>
 <div>
+    <headerVue></headerVue>
+    <IntroductionVue></IntroductionVue>
     Hello  ...
     <fa :icon="['fas', 'users']"/>
     <br/>
@@ -9,3 +11,7 @@
     
 </div>
 </template>
+<script setup lang="ts">
+import headerVue from '@/components/Header.vue';
+import IntroductionVue from '@/components/Introduction.vue';
+</script>

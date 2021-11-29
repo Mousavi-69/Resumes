@@ -8,7 +8,7 @@ export default defineConfig({
   plugins: [vue()],
   css: {
     preprocessorOptions: {
-      scss: { additionalData: `@import" @/styles/_variables.scss ";` },
+      scss: { additionalData: `@import "@/styles/_variables.scss";` },
     },
   },
 

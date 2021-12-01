@@ -2,13 +2,12 @@
 <div>
     <headerVue></headerVue>
     <IntroductionVue></IntroductionVue>
-    Hello  ...
-    <fa :icon="['fas', 'users']"/>
+    <!-- <fa :icon="['fas', 'users']"/>
     <br/>
         <fa :icon="['far', 'check-circle']"/>
          <br/>
         <fa :icon="['fab', 'telegram-plane']"/>
-    
+     -->
 </div>
 </template>
 <script setup lang="ts">

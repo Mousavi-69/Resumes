@@ -14,5 +14,6 @@ const id_btn = "#";
 .container {
   color: $primaryColor;
   padding: 30px;
+  background-color: #f7f7f7;
 }
 </style>

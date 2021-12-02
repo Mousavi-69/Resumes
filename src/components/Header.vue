@@ -16,7 +16,7 @@
 </template>
 <style scoped lang="scss">
 .header {
-  height: 120px;
+  height: 110px;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -25,10 +25,11 @@
   background-color: rgb(255, 255, 255);
   overflow: hidden;
   img {
-    width: 170px;
-    height: 135%;
+    width: 150px;
+    height: 145%;
     cursor: pointer;
-    margin-top: -20px;
+    margin-top: -10px;
+    margin-left: 200px;
   }
   .list {
     display: flex;
@@ -37,13 +38,17 @@
     gap: 25px;
     li {
       position: relative;
-      font-size: 1.2rem;
-      font-weight: 550;
-      font-family: $fontFamily;
+
       cursor: pointer;
       transition: all 0.3s ease-out 0s;
+
       a {
         text-decoration: none;
+        font-weight: 600;
+        font-size: 1.2rem;
+        font-family: fontFamily;
+        color: black;
+
         &:before {
           position: absolute;
           content: "";

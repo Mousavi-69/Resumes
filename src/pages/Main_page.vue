@@ -20,7 +20,7 @@ import AboutMe from '@/components/AboutMe.vue';
 .header{
     position: fixed;
     width: 100%;
-    z-index: 10;
+    z-index: 50;
 }
 .IntroductionVue{
     padding-top: 125px;

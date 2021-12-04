@@ -5,10 +5,10 @@ import './styles/main.scss'
 import router from './Routing'
 import {FontAwesomeIcon} from '@fortawesome/vue-fontawesome'
 import { library } from '@fortawesome/fontawesome-svg-core';
-import { faUserSecret,faUsers,faBars} from '@fortawesome/free-solid-svg-icons';
-import { faTimesCircle,faCheckCircle} from '@fortawesome/free-regular-svg-icons';
+import { faUserSecret,faUsers,faBars,faPhone,faMapMarkerAlt} from '@fortawesome/free-solid-svg-icons';
+import { faTimesCircle,faCheckCircle,faCalendarAlt,faEnvelope} from '@fortawesome/free-regular-svg-icons';
 import { faInstagram,faTelegramPlane} from '@fortawesome/free-brands-svg-icons';
-library.add(faUserSecret,faUsers,faBars,faTimesCircle,faCheckCircle,faUserSecret,faInstagram,faTelegramPlane);
+library.add(faUserSecret,faUsers,faBars,faPhone,faMapMarkerAlt,faTimesCircle,faCheckCircle,faCalendarAlt,faEnvelope,faUserSecret,faInstagram,faTelegramPlane);
 
 createApp(App)
 .component('fa',FontAwesomeIcon)

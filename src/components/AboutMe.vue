@@ -1,13 +1,13 @@
 <script setup lang="ts">
 import Chart from "./Chart.vue";
 
-const widthChart = 110;
-const heightChart = 110;
-const strokeWidthChart = 7;
-const radiusChart = 90;
+const widthChart = 90;
+const heightChart = 90;
+const strokeWidthChart = 5;
+const radiusChart = 95;
 const valueCountUpDurationChart = 2300;
-const customPercentSizeChart = 20;
-const customTextSizeChart = 15;
+const customPercentSizeChart = 14;
+const customTextSizeChart = 13;
 </script>
 <template>
   <section class="container">
@@ -19,25 +19,61 @@ const customTextSizeChart = 15;
         <p>
           نام من برنارد سیدنی است. من یک توسعه دهنده وب هستم ، و بسیار علاقه مند
           به کارهایم هستم. با 20 سال تجربه به عنوان یک توسعه دهنده حرفه ای وب ،
-          من مهارت ها و دانش لازم را برای موفقیت پروژه شما کسب کردم..
+          من مهارت ها و دانش لازم را برای موفقیت پروژه شما کسب کردم.
         </p>
         <ul class="list-contentUs">
-          <li>
+          <li class="list">
             <div class="contentUs">
-              <div>
-                <fa />
+              <div class="icon-parent">
+                <fa class="icon" :icon="['far', 'calendar-alt']" />
               </div>
-              <div>
+              <div class="text">
                 <p>
-                  <span>ایمیل:</span>
-                  "m.sanjarmoosavi@gmail.com"
+                  <span>تاریخ تولد:</span>
+                  8 مرداد 1369
                 </p>
               </div>
             </div>
           </li>
-          <li></li>
-          <li></li>
-          <li></li>
+          <li class="list">
+            <div class="contentUs">
+              <div class="icon-parent">
+                <fa class="icon" :icon="['far', 'envelope']" />
+              </div>
+              <div class="text">
+                <p>
+                  <span>ایمیل:</span>
+                  m.sanjarmoosavi@gmail.com
+                </p>
+              </div>
+            </div>
+          </li>
+          <li class="list">
+            <div class="contentUs">
+              <div class="icon-parent">
+                <fa class="icon" :icon="['fas', 'phone']" />
+              </div>
+              <div class="text">
+                <p>
+                  <span>تلفن:</span>
+                  09150465506
+                </p>
+              </div>
+            </div>
+          </li>
+          <li class="list">
+            <div class="contentUs">
+              <div class="icon-parent">
+                <fa class="icon" :icon="['fas', 'map-marker-alt']" />
+              </div>
+              <div class="text">
+                <p>
+                  <span>آدرس:</span>
+                  مشهد - خیابان سیدرضی
+                </p>
+              </div>
+            </div>
+          </li>
         </ul>
       </div>
 
@@ -176,32 +212,63 @@ const customTextSizeChart = 15;
     .content-left {
       width: 50%;
     }
-    .content-right {
-      width: 50%;
-      padding-right: 100px;
-      padding-left: 150px;
-      h1 {
-        text-align: start;
-        span {
-          font-size: 1.3rem;
-          padding-right: 5px;
+  }
+}
+.content-right {
+  width: 50%;
+  padding-right: 100px;
+  padding-left: 50px;
+  h1 {
+    text-align: start;
+    span {
+      font-size: 1.3rem;
+      padding-right: 5px;
+    }
+  }
+  p {
+    text-align: start;
+    padding-left: 50px;
+
+    font-size: 1.3rem;
+    color: rgb(90, 90, 90);
+    line-height: 25px;
+  }
+  .list-contentUs {
+    list-style-type: none;
+    padding-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    .list {
+      min-width: 220px;
+    }
+    .contentUs {
+      display: flex;
+      align-items: center;
+      .icon-parent {
+        display: flex;
+        justify-content: center;
+        .icon {
+          color: $primaryColor;
         }
       }
-      p {
-        text-align: start;
-        font-size: 1.3rem;
-        color: rgb(90, 90, 90);
-        line-height: 25px;
+      .text {
+        padding-right: 10px;
+        color: red;
+        p {
+          font-size: 1rem;
+          font-weight: 600;
+          color: rgb(90, 90, 90);
+        }
       }
     }
   }
 }
 .content-left {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(4, 110px);
   justify-content: center;
   gap: 10px;
   padding-left: 60px;
-  padding-top: 30px;
+  padding-top: 40px;
 }
 </style>

@@ -3,6 +3,7 @@
     <headerVue class="header"></headerVue>
     <IntroductionVue class="IntroductionVue"></IntroductionVue>
     <AboutMe></AboutMe>
+    <MyService></MyService>
     <!-- <fa :icon="['fas', 'users']"/>
     <br/>
         <fa :icon="['far', 'check-circle']"/>
@@ -15,6 +16,7 @@
 import headerVue from '@/components/Header.vue';
 import IntroductionVue from '@/components/Introduction.vue';
 import AboutMe from '@/components/AboutMe.vue';
+import MyService from '@/components/MyService.vue';
 </script>
 <style scoped lang="scss">
 .header{

@@ -204,11 +204,12 @@ const customTextSizeChart = 13;
 </template>
 <style scoped lang="scss">
 .container {
-  padding-top: 30px;
+  padding-top: 50px;
+  padding-bottom:100px;
   text-align: center;
   .section {
     display: flex;
-    padding-top: 20px;
+    padding-top: 50px;
     .content-left {
       width: 50%;
     }
@@ -244,6 +245,7 @@ const customTextSizeChart = 13;
     .contentUs {
       display: flex;
       align-items: center;
+      padding-bottom: 8px;
       .icon-parent {
         display: flex;
         justify-content: center;
@@ -258,6 +260,10 @@ const customTextSizeChart = 13;
           font-size: 1rem;
           font-weight: 600;
           color: rgb(90, 90, 90);
+          padding-right: 10px;
+          span{
+            padding-left: 10px;
+          }
         }
       }
     }

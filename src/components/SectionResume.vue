@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import Button from "./Button.vue";
+import buttonVue from "./Button.vue";
 </script>
 <template>
   <section class="container">
@@ -11,9 +11,9 @@ import Button from "./Button.vue";
         Quae error quisquam maiores nesciunt, deleniti provident tempore non!
       </p>
       <footer class="footer">
-        <Button
+        <buttonVue
           class="btn"
-          :width-btn="210"
+          :width-btn="220"
           :height-btn="60"
           :text="'نمونه کارهای آنلاین '"
           :id="'#'"
@@ -22,10 +22,10 @@ import Button from "./Button.vue";
           :hover-bg-color="'#754ef9'"
           :hover-text-color="'white'"
           :border-color="'#754ef9'"
-        ></Button>
-        <Button
+        ></buttonVue>
+        <buttonVue
           class="btn"
-          :width-btn="210"
+          :width-btn="220"
           :height-btn="60"
           :text="'دانلود دانلود اپلیکیشن'"
           :id="'#'"
@@ -34,7 +34,7 @@ import Button from "./Button.vue";
           :hover-bg-color="'rgba(255, 255, 255, 0.322)'"
           :hover-text-color="'white'"
           :border-color="'white'"
-        ></Button>
+        ></buttonVue>
       </footer>
     </div>
   </section>
@@ -75,7 +75,7 @@ import Button from "./Button.vue";
   align-items: center;
   flex-wrap: wrap;
   .btn {
-    margin: 20px;
+    margin: 10px;
   }
 }
 </style>

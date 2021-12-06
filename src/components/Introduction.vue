@@ -14,7 +14,14 @@ const id_btn = "#";
         در تلاشم تا از طریق کد دقیق، تمیز و کاربر محور، برنامه های کاربردی وب
         همه جانبه و زیبا بسازم.
       </p>
-      <buttonVue class="btn" :text="text_btn" :id="id_btn"></buttonVue>
+      <buttonVue class="btn" :text="text_btn" :id="id_btn"
+          :width-btn="200"
+          :height-btn="55"
+          :bg-color="'#754ef9'"
+          :text-color="'white'"
+          :hover-bg-color="'white'"
+          :hover-text-color="'754ef9'"
+          :border-color="'#754ef9'"></buttonVue>
     </div>
     <div class="content-left">
       <div class="picther">

@@ -29,9 +29,9 @@ import buttonVue from "./Button.vue";
           :height-btn="60"
           :text="'دانلود دانلود اپلیکیشن'"
           :id="'#'"
-          :bg-color="'#754ef9'"
+          :bg-color="'rgba(117, 78, 249, 0.1)'"
           :text-color="'white'"
-          :hover-bg-color="'rgba(255, 255, 255, 0.322)'"
+          :hover-bg-color="'rgba(255, 255, 255, 0.4)'"
           :hover-text-color="'white'"
           :border-color="'white'"
         ></buttonVue>

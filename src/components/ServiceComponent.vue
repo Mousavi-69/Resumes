@@ -18,12 +18,12 @@ const props = defineProps<{
 </template>
 <style scoped lang="scss">
 .container {
-  width: 330px;
+  width: 365px;
   height: 250px;
   padding:30px !important;
   background-color: rgb(255, 255, 255) !important;
   border-radius: 5px;
-  border: 1px solid #dddcdc;
+  border: 1px solid #e7e7e7;
   box-sizing: border-box;
 
   .icon {

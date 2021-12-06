@@ -16,7 +16,7 @@
 </template>
 <style scoped lang="scss">
 .header {
-  height: 110px;
+  height: 100px;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -29,7 +29,6 @@
     height: 145%;
     cursor: pointer;
     margin-top: -10px;
-    margin-left: 200px;
   }
   .list {
     display: flex;

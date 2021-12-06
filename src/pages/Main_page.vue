@@ -4,12 +4,10 @@
     <IntroductionVue class="IntroductionVue"></IntroductionVue>
     <AboutMe></AboutMe>
     <MyService></MyService>
-    <!-- <fa :icon="['fas', 'users']"/>
-    <br/>
-        <fa :icon="['far', 'check-circle']"/>
-         <br/>
-        <fa :icon="['fab', 'telegram-plane']"/>
-     -->
+    <SectionResume></SectionResume>
+  
+        <!-- <fa :icon="['fab', 'telegram-plane']"/> -->
+    
 </div>
 </template>
 <script setup lang="ts">
@@ -17,6 +15,7 @@ import headerVue from '@/components/Header.vue';
 import IntroductionVue from '@/components/Introduction.vue';
 import AboutMe from '@/components/AboutMe.vue';
 import MyService from '@/components/MyService.vue';
+import SectionResume from '@/components/SectionResume.vue';
 </script>
 <style scoped lang="scss">
 .header{

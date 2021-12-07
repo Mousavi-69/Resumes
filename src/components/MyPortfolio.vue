@@ -36,8 +36,7 @@ import buttonVue from "./Button.vue";
 </template>
 <style scoped lang="scss">
 .container {
-  background-color: #fbfbfb;
-
+  background-color: #f7f7f7;
   .title {
     padding: 50px 100px 30px 100px;
   }
@@ -53,5 +52,6 @@ import buttonVue from "./Button.vue";
   display: flex;
   justify-content: center;
   margin-top: 35px;
+  padding-bottom: 80px;
 }
 </style>

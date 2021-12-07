@@ -205,7 +205,7 @@ const customTextSizeChart = 13;
 <style scoped lang="scss">
 .container {
   padding-top: 50px;
-  padding-bottom:100px;
+  padding-bottom: 100px;
   text-align: center;
   .section {
     display: flex;
@@ -218,7 +218,7 @@ const customTextSizeChart = 13;
 .content-right {
   width: 50%;
   padding-right: 100px;
-  padding-left: 50px;
+  padding-left:2px;
   h1 {
     text-align: start;
     span {
@@ -240,7 +240,7 @@ const customTextSizeChart = 13;
     display: flex;
     flex-wrap: wrap;
     .list {
-      min-width: 220px;
+      min-width: 230px;
     }
     .contentUs {
       display: flex;
@@ -249,20 +249,21 @@ const customTextSizeChart = 13;
       .icon-parent {
         display: flex;
         justify-content: center;
+        align-items:center ;
         .icon {
           color: $primaryColor;
         }
       }
       .text {
-        padding-right: 10px;
+        padding-right: 5px;
         color: red;
         p {
           font-size: 1rem;
           font-weight: 600;
           color: rgb(90, 90, 90);
           padding-right: 10px;
-          span{
-            padding-left: 10px;
+          span {
+            padding-left: 5px;
           }
         }
       }
@@ -273,8 +274,9 @@ const customTextSizeChart = 13;
   display: grid;
   grid-template-columns: repeat(4, 110px);
   justify-content: center;
+  align-items: center;
   gap: 10px;
-  padding-left: 60px;
-  padding-top: 40px;
+  padding-left: 5px;
+  padding-top: 45px;
 }
 </style>

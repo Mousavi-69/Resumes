@@ -47,7 +47,6 @@ import ServiceComponent from "./ServiceComponent.vue";
 .container {
   background-color: #f7f7f7;
   padding:50px 0px 100px 0px ;
-;
   text-align: center;
   box-sizing: border-box;
   .service {

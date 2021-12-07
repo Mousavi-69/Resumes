@@ -6,6 +6,7 @@
     <MyService></MyService>
     <SectionResume></SectionResume>
     <MyPortfolio></MyPortfolio>
+    <Tutorials></Tutorials>
 
     <!-- <fa :icon="['fab', 'telegram-plane']"/> -->
   </div>
@@ -17,6 +18,7 @@ import AboutMe from "@/components/AboutMe.vue";
 import MyService from "@/components/MyService.vue";
 import SectionResume from "@/components/SectionResume.vue";
 import MyPortfolio from "@/components/MyPortfolio.vue";
+import Tutorials from "@/components/Tutorials.vue";
 </script>
 <style scoped lang="scss">
 .header {

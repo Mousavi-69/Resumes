@@ -39,13 +39,12 @@ const heightButton = computed(() => {
   align-items: center;
   flex-direction: column;
   cursor: pointer;
-  padding: 20px;
   text-decoration: none;
   user-select: none;
   border-radius: 50px;
   border-width: 1px;
   border-style: solid;
-  padding: 13px 40px;
+  padding: 13px 10px;
   line-height: 48px;
   font-size: 19px;
   font-weight: 500;
@@ -53,7 +52,6 @@ const heightButton = computed(() => {
   user-select: none;
   text-transform: uppercase;
   transition: all 0.3s ease-out 0s;
-  box-sizing: border-box;
   width: v-bind("widthButton") !important; //:width-btn=
   height: v-bind("heightButton") !important; //
   border-color: v-bind("props.borderColor") !important;

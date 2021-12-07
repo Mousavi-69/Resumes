@@ -13,7 +13,7 @@ import buttonVue from "./Button.vue";
       <footer class="footer">
         <buttonVue
           class="btn"
-          :width-btn="220"
+          :width-btn="190"
           :height-btn="60"
           :text="'نمونه کارهای آنلاین '"
           :id="'#'"
@@ -25,7 +25,7 @@ import buttonVue from "./Button.vue";
         ></buttonVue>
         <buttonVue
           class="btn"
-          :width-btn="220"
+          :width-btn="190"
           :height-btn="60"
           :text="'دانلود دانلود اپلیکیشن'"
           :id="'#'"

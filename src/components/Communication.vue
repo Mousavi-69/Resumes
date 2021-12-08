@@ -1,0 +1,45 @@
+<script setup lang="ts">
+import ServiceComponent from './ShapeComponent/ServiceComponent.vue';</script>
+<template>
+  <div class="container">
+    <div class="title">
+      <h2>ارتباط با ما</h2>
+      <h4>
+        من کارهای زیبا را طراحی و کد می کنم و کاری را که می کنم دوست دارم.
+      </h4>
+    </div>
+    <section class="section">
+
+ <ServiceComponent
+        :icon="['fab', 'telegram-plane']"
+        :title="'وب اپلیکیشن'"
+        :text="'طراح گرافیک از این متن به عنوان عنصری از ترکیب بندی برای پر کردن صفحه و ارایه اولیه شکل ظاهری و کلی طرح سفارش گرفت'"
+      />
+        <ServiceComponent
+        :icon="['fab', 'telegram-plane']"
+        :title="'وب اپلیکیشن'"
+        :text="'طراح گرافیک از این متن به عنوان عنصری از ترکیب بندی برای پر کردن صفحه و ارایه اولیه شکل ظاهری و کلی طرح سفارش گرفت'"
+      />
+        <ServiceComponent
+        :icon="['fab', 'telegram-plane']"
+        :title="'وب اپلیکیشن'"
+        :text="'طراح گرافیک از این متن به عنوان عنصری از ترکیب بندی برای پر کردن صفحه و ارایه اولیه شکل ظاهری و کلی طرح سفارش گرفت'"
+      />  </section>
+  </div>
+</template>
+<style scoped lang="scss">
+.container {
+  background-color: #f7f7f7;
+  padding: 0px 0px 100px 0px;
+  text-align: center;
+  box-sizing: border-box;
+  .title{
+      padding: 50px;
+  }
+  .section{
+      display: flex;
+    flex-wrap: wrap;
+    gap: 25px;
+    justify-content: center;
+  }
+}</style>

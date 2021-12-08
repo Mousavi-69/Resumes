@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import PortfolioComponent from "./PortfolioComponent.vue";
+import PortfolioComponent from "./ShapeComponent/PortfolioComponent.vue";
 import buttonVue from "./Button.vue";
 </script>
 <template>

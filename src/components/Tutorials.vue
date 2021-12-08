@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import TutorialsComponent from './TutorialsComponent.vue';</script>
+import TutorialsComponent from './ShapeComponent/TutorialsComponent.vue';</script>
 <template>
   <div class="container">
     <div class="title">

@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import ServiceComponent from "./ServiceComponent.vue";
+import ServiceComponent from "./ShapeComponent/ServiceComponent.vue";
 </script>
 <template>
   <div class="container">

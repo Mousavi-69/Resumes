@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import buttonVue from "./Button.vue";
+import buttonVue from "../Button.vue";
 </script>
 <template>
   <div class="container">

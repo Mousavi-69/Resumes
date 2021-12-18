@@ -1,5 +1,7 @@
 <script setup lang="ts">
-import ServiceComponent from './ShapeComponent/ServiceComponent.vue';</script>
+import ServiceComponent from "./ShapeComponent/ServiceComponent.vue";
+import Form from "./Form.vue";
+</script>
 <template>
   <div class="container">
     <div class="title">
@@ -9,22 +11,25 @@ import ServiceComponent from './ShapeComponent/ServiceComponent.vue';</script>
       </h4>
     </div>
     <section class="section">
-
- <ServiceComponent
+      <ServiceComponent
         :icon="['fab', 'telegram-plane']"
         :title="'وب اپلیکیشن'"
         :text="'طراح گرافیک از این متن به عنوان عنصری از ترکیب بندی برای پر کردن صفحه و ارایه اولیه شکل ظاهری و کلی طرح سفارش گرفت'"
       />
-        <ServiceComponent
+      <ServiceComponent
         :icon="['fab', 'telegram-plane']"
         :title="'وب اپلیکیشن'"
         :text="'طراح گرافیک از این متن به عنوان عنصری از ترکیب بندی برای پر کردن صفحه و ارایه اولیه شکل ظاهری و کلی طرح سفارش گرفت'"
       />
-        <ServiceComponent
+      <ServiceComponent
         :icon="['fab', 'telegram-plane']"
         :title="'وب اپلیکیشن'"
         :text="'طراح گرافیک از این متن به عنوان عنصری از ترکیب بندی برای پر کردن صفحه و ارایه اولیه شکل ظاهری و کلی طرح سفارش گرفت'"
-      />  </section>
+      />
+    </section>
+    <div class="form-map">
+        <Form></Form>
+    </div>
   </div>
 </template>
 <style scoped lang="scss">
@@ -33,13 +38,19 @@ import ServiceComponent from './ShapeComponent/ServiceComponent.vue';</script>
   padding: 0px 0px 100px 0px;
   text-align: center;
   box-sizing: border-box;
-  .title{
-      padding: 50px;
+  .title {
+    padding: 50px;
   }
-  .section{
-      display: flex;
+  .section {
+    display: flex;
     flex-wrap: wrap;
     gap: 25px;
     justify-content: center;
   }
-}</style>
+}
+.form-map{
+    padding-right: 100px;
+    padding-left: 100px;
+    padding-top: 70px;
+}
+</style>

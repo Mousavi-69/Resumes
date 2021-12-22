@@ -35,7 +35,7 @@ import Form from "./Form.vue";
 <style scoped lang="scss">
 .container {
   background-color: #f7f7f7;
-  padding: 0px 0px 100px 0px;
+  padding: 0px 0px 40px 0px;
   text-align: center;
   box-sizing: border-box;
   .title {

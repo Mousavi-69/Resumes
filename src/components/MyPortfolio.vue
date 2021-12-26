@@ -5,7 +5,7 @@ import buttonVue from "./Button.vue";
 <template>
   <div class="container">
     <div class="title">
-      <h2>خدمات من</h2>
+      <h2>نمونه کارهای من</h2>
       <h4>
         من کارهای زیبا را طراحی و کد می کنم و کاری را که می کنم دوست دارم.
       </h4>
@@ -42,7 +42,7 @@ import buttonVue from "./Button.vue";
   }
 }
 .portfolio {
-  padding: 0px 100px;
+  padding: 0px 0px;
   display: flex;
   flex-wrap: wrap;
   gap: 30px;

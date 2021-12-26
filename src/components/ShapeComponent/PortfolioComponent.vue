@@ -1,29 +1,24 @@
 <script setup lang="ts"></script>
 <template>
   <div class="container">
-    <div class="work-imge">
-      <img
-        class="img"
-        width="360"
-        height="360"
-        src="@/assets/images/w-1.jpg"
-        alt="portfolio"
-      />
-    </div>
     <div class="work-overlay">
       <div class="work-content">
-        <h3 class="work-title">تصویر</h3>
-        <hr />
-        <ul>
-          <li class="li-1">
-            <a class="" href="">
-              <fa class="icon" :icon="['fab', 'github']"
-            /></a>
-          </li>
-          <li class="li-2">
-            <a class="" href=""> <fa class="icon" :icon="['fas', 'info']" /></a>
-          </li>
-        </ul>
+        <div class="content">
+          <h3 class="work-title">تصویر</h3>
+          <hr />
+          <ul>
+            <li class="li-1">
+              <a class="" href="">
+                <fa class="icon" :icon="['fab', 'github']"
+              /></a>
+            </li>
+            <li class="li-2">
+              <a class="" href="">
+                <fa class="icon" :icon="['fas', 'info']"
+              /></a>
+            </li>
+          </ul>
+        </div>
       </div>
     </div>
   </div>
@@ -34,66 +29,87 @@
 }
 
 .work-overlay {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  z-index: 5;
-  top: 0px;
-  left: 0px;
-  background-color: rgba(117, 78, 249, 0.7);
-  visibility: hidden;
-  transition: all 0.3s ease-out 0s;
+  position: relative;
+  display: flex;
+  width: 360px;
+  height: 360px;
+  background-image: url("@/assets/images/w-1.jpg");
+  background-repeat: no-repeat;
 
-  .work-content {
-    position: absolute;
-    top: 50%;
-    left: 0;
-    width: 100%;
-    transform: translateY(-50%);
-    text-align: center;
-
-    ul {
-      display: flex;
-      justify-content: center;
-      list-style-type: none;
-      .li-1 {
-        width: 55px;
-        height: 55px;
-        border: 1px solid white;
-        border-radius: 50%;
-        padding: 10px;
-        margin: 10px;
-        transform: translateX(-100%);
-      }
-      .li-2 {
-        width: 55px;
-        height: 55px;
-        border: 1px solid white;
-        border-radius: 50%;
-        padding: 10px;
-        margin: 10px;
-        transform: translateX(100%);
+  &:hover {
+    .work-content {
+      visibility: visible;
+      .content {
+        visibility: visible;
       }
       .work-title {
-        color: white;
-        font-size: 1.3rem;
-        transform: translateY(-100%);
+        transform: translateY(35px);
       }
-      hr {
-        width: 70px;
-        height: 3px;
-        background-color: white;
-        margin-top: -15px;
+      .li-1 {
+        transform: translateX(25px);
       }
-
-      .icon {
-        color: white;
-        font-size: 35px;
+      .li-2 {
+        transform: translateX(-25px);
       }
     }
   }
-  &:hover {
-    visibility: visible;
+  .work-content {
+    position: relative;
+    visibility: hidden;
+    width: 100%;
+    text-align: center;
+    background-color: #764ef9c9;
+    transition: all 0.2s ease-in 0s;
+  }
+}
+.content {
+  position: relative;
+  visibility: hidden;
+
+  top: 20%;
+  .work-title {
+    position: relative;
+    color: white;
+    font-size: 1.3rem;
+    transition: all 0.2s ease-in 0s;
+  }
+  hr {
+    width: 100px;
+    height: 3px;
+    background-color: white;
+    margin-top: 50px;
+  }
+
+  ul {
+    display: flex;
+    position: absolute;
+    left: 30%;
+    justify-content: center;
+    list-style-type: none;
+
+    .li-1 {
+      width: 55px;
+      height: 55px;
+      border: 1px solid white;
+      border-radius: 50%;
+      padding: 10px;
+      margin: 10px 10px 10px -15px;
+      transition: all 0.2s ease-in 0s;
+    }
+    .li-2 {
+      width: 55px;
+      height: 55px;
+      border: 1px solid white;
+      border-radius: 50%;
+      padding: 10px;
+      margin: 10px -15px 10px 30px;
+      transition: all 0.2s ease-in 0s;
+    }
+
+    .icon {
+      color: white;
+      font-size: 35px;
+    }
   }
 }
 </style>

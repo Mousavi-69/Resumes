@@ -37,33 +37,34 @@ import buttonVue from "../Button.vue";
 </template>
 <style scoped lang="scss">
 .container {
-  width: 350px;
-  height: 480px;
-  background-color: rgb(97, 44, 44);
+  width: 330px;
+  height: 460px;
   text-align: center;
   cursor: pointer;
   overflow: hidden;
-  padding-bottom: 100px;
+  padding-bottom: 20px;
   border: 1px solid rgb(196, 194, 194);
   border-radius: 8px;
-  transition: all 0.3s ease-out 0.2s;
+  transition: all 0.2s ease-out 0.2s;
+
 
   &:hover {
-    transform: translateY(-10px);
+    transform: translateY(-7px);
     box-shadow: 0 1px 15px 5px rgb(216, 216, 216);
   }
 }
 .header {
-  padding: 2px;
+  padding: 1px;
   background-color: #754ef9;
 }
 .section1 {
-  padding: 10px 30px;
+  padding: 1px 20px;
 }
+
 .footer {
   display: flex;
   justify-content: center;
-  margin-top: 30px;
-  padding-bottom: 80px;
+  margin-top: 10px;
+  padding-bottom: 10px;
 }
 </style>

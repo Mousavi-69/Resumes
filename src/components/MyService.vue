@@ -15,27 +15,27 @@ import ServiceComponent from "./ShapeComponent/ServiceComponent.vue";
         :title="'وب اپلیکیشن'"
         :text="'طراح گرافیک از این متن به عنوان عنصری از ترکیب بندی برای پر کردن صفحه و ارایه اولیه شکل ظاهری و کلی طرح سفارش گرفت'"
       />
-        <ServiceComponent
+      <ServiceComponent
         :icon="['fab', 'telegram-plane']"
         :title="'وب اپلیکیشن'"
         :text="'طراح گرافیک از این متن به عنوان عنصری از ترکیب بندی برای پر کردن صفحه و ارایه اولیه شکل ظاهری و کلی طرح سفارش گرفت'"
       />
-        <ServiceComponent
+      <ServiceComponent
         :icon="['fab', 'telegram-plane']"
         :title="'وب اپلیکیشن'"
         :text="'طراح گرافیک از این متن به عنوان عنصری از ترکیب بندی برای پر کردن صفحه و ارایه اولیه شکل ظاهری و کلی طرح سفارش گرفت'"
       />
-        <ServiceComponent
+      <ServiceComponent
         :icon="['fab', 'telegram-plane']"
         :title="'وب اپلیکیشن'"
         :text="'طراح گرافیک از این متن به عنوان عنصری از ترکیب بندی برای پر کردن صفحه و ارایه اولیه شکل ظاهری و کلی طرح سفارش گرفت'"
       />
-        <ServiceComponent
+      <ServiceComponent
         :icon="['fab', 'telegram-plane']"
         :title="'وب اپلیکیشن'"
         :text="'طراح گرافیک از این متن به عنوان عنصری از ترکیب بندی برای پر کردن صفحه و ارایه اولیه شکل ظاهری و کلی طرح سفارش گرفت'"
       />
-        <ServiceComponent
+      <ServiceComponent
         :icon="['fab', 'telegram-plane']"
         :title="'وب اپلیکیشن'"
         :text="'طراح گرافیک از این متن به عنوان عنصری از ترکیب بندی برای پر کردن صفحه و ارایه اولیه شکل ظاهری و کلی طرح سفارش گرفت'"
@@ -46,15 +46,20 @@ import ServiceComponent from "./ShapeComponent/ServiceComponent.vue";
 <style scoped lang="scss">
 .container {
   background-color: #f7f7f7;
-  padding:50px 0px 100px 0px ;
+  padding: 90px 0px 100px 0px;
   text-align: center;
   box-sizing: border-box;
+  .title {
+    h2 {
+      font-size: 2rem;
+    }
+  }
   .service {
     display: flex;
     flex-wrap: wrap;
     gap: 25px;
     justify-content: center;
-    margin-top: 70px;
+    margin-top: 40px;
   }
 }
 </style>

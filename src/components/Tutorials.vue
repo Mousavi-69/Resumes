@@ -21,7 +21,10 @@ import TutorialsComponent from './ShapeComponent/TutorialsComponent.vue';</scrip
   background-color: #f7f7f7;
   text-align: center;
  .title{
-     padding-top: 30px;
+     padding-top: 90px;
+     h2{
+      font-size: 2rem;
+    }
  }
 }
 .tutorials{
@@ -29,6 +32,6 @@ import TutorialsComponent from './ShapeComponent/TutorialsComponent.vue';</scrip
     justify-content: center;
     align-items: center;
     gap: 35px;
-    padding: 50px 100px;
+    padding: 5px 100px 50px 100px;
 }
 </style>

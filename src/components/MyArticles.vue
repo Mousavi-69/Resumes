@@ -38,8 +38,11 @@ import buttonVue from "./Button.vue";
   text-align: center;
   box-sizing: border-box;
   .title{
-    padding-top: 50px;
-    padding-bottom: 30px;
+    padding-top: 90px;
+    padding-bottom: 20px;
+    h2{
+      font-size: 2rem;
+    }
   }
 }
 .article {

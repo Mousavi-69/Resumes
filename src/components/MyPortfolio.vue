@@ -38,12 +38,15 @@ import buttonVue from "./Button.vue";
 .container {
   background-color: #f7f7f7;
   .title {
-    padding: 50px 100px 30px 100px;
+    padding: 90px 100px 10px 100px;
+    text-align: center;
+    h2{
+      font-size: 2rem;
+    }
   }
 }
 .portfolio {
-  padding: 0px 0px;
-  display: flex;
+ display: flex;
   flex-wrap: wrap;
   gap: 30px;
   justify-content: center;

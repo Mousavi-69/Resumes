@@ -28,29 +28,32 @@ import Form from "./Form.vue";
       />
     </section>
     <div class="form-map">
-        <Form></Form>
+      <Form></Form>
     </div>
   </div>
 </template>
 <style scoped lang="scss">
 .container {
   background-color: #f7f7f7;
-  padding: 0px 0px 40px 0px;
+  padding: 90px 0px 30px 0px;
   text-align: center;
   box-sizing: border-box;
   .title {
-    padding: 50px;
+    h2 {
+      font-size: 2rem;
+    }
   }
   .section {
     display: flex;
     flex-wrap: wrap;
     gap: 25px;
     justify-content: center;
+    padding-top: 20px;
   }
 }
-.form-map{
-    padding-right: 100px;
-    padding-left: 100px;
-    padding-top: 70px;
+.form-map {
+  padding-right: 100px;
+  padding-left: 100px;
+  padding-top: 5px;
 }
 </style>

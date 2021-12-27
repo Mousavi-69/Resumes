@@ -77,7 +77,7 @@ const customTextSizeChart = 13;
         </ul>
       </div>
 
-      <section class="content-left">
+      <section  class="content-left">
         <chart
           :percent="73"
           :customPercentSize="customPercentSizeChart"
@@ -204,9 +204,12 @@ const customTextSizeChart = 13;
 </template>
 <style scoped lang="scss">
 .container {
-  padding-top: 50px;
+  padding-top: 90px;
   padding-bottom: 100px;
   text-align: center;
+  h2{
+      font-size: 2rem;
+    }
   .section {
     display: flex;
     padding-top: 50px;

@@ -1,15 +1,18 @@
-<script setup lang="ts"></script>
+<script setup lang="ts">
+
+
+</script>
 <template>
   <nav class="header">
     <!-- <fa class="menue" :icon="['fas', 'bars']" /> -->
     <ul class="list">
-      <li><a href="">خانه</a></li>
-      <li><a href="">درباره من</a></li>
-      <li><a href="">خدمات</a></li>
-      <li><a href="">نمونه کار</a></li>
-      <li><a href="">پکیج ها</a></li>
-      <li><a href="">بلاگ</a></li>
-      <li><a href="">ارتباط با من</a></li>
+      <li><a href="#Introduction">خانه</a></li>
+      <li><a href="#AboutMe">درباره من</a></li>
+      <li><a href="#MyService">خدمات</a></li>
+      <li><a href="#MyPortfolio">نمونه کار</a></li>
+      <li><a href="#Tutorials">آموزش ها</a></li>
+      <li><a href="#MyArticles">مقالات من</a></li>
+      <li><a href="#Communication">تماس</a></li>
     </ul>
     <img src="@/assets/images/logo.png" />
   </nav>
@@ -36,10 +39,9 @@
     text-decoration: none;
     list-style-type: none;
     gap: 25px;
+
     li {
       position: relative;
-
-      cursor: pointer;
       transition: all 0.3s ease-out 0s;
 
       a {
@@ -66,6 +68,12 @@
             height: 45px;
           }
         }
+        &:focus {
+          color: $primaryColor;
+          &:before {
+            height: 45px;
+          }
+        }
       }
     }
   }
@@ -74,5 +82,7 @@
     height: 30px;
     text-align: center;
   }
+  
 }
+ 
 </style>

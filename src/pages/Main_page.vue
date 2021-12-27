@@ -1,14 +1,17 @@
 <template>
   <div>
     <headerVue class="header"></headerVue>
-    <IntroductionVue class="IntroductionVue"></IntroductionVue>
-    <AboutMe></AboutMe>
-    <MyService></MyService>
-    <SectionResume></SectionResume>
-    <MyPortfolio></MyPortfolio>
-    <Tutorials></Tutorials>
-    <MyArticles></MyArticles>
-    <Communication></Communication>
+    <IntroductionVue
+      id="Introduction"
+      class="IntroductionVue"
+    ></IntroductionVue>
+    <AboutMe id="AboutMe"></AboutMe>
+    <MyService id="MyService"></MyService>
+    <SectionResume id="SectionResume"></SectionResume>
+    <MyPortfolio id="MyPortfolio"></MyPortfolio>
+    <Tutorials id="Tutorials"></Tutorials>
+    <MyArticles id="MyArticles"></MyArticles>
+    <Communication id="Communication"></Communication>
     <Footer></Footer>
 
     <!-- <fa :icon="['fab', 'telegram-plane']"/> -->

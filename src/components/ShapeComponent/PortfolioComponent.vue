@@ -58,8 +58,8 @@
     visibility: hidden;
     width: 100%;
     text-align: center;
-    background-color: #764ef9c9;
-    transition: all 0.2s ease-in 0s;
+    background-color: rgba(117, 78, 249, 0.8);
+    transition: all 0.2s ease-in 0.01s;
   }
 }
 .content {
@@ -88,25 +88,33 @@
     list-style-type: none;
 
     .li-1 {
-      width: 55px;
-      height: 55px;
+      width: 50px;
+      height: 50px;
       border: 1px solid white;
       border-radius: 50%;
-      padding: 10px;
+      padding: 5px;
       margin: 10px 10px 10px -15px;
       transition: all 0.2s ease-in 0s;
+      cursor: pointer;
+      a {
+        display: inline-block;
+      }
     }
     .li-2 {
-      width: 55px;
-      height: 55px;
+      width: 50px;
+      height: 50px;
       border: 1px solid white;
       border-radius: 50%;
-      padding: 10px;
+      padding: 5px;
       margin: 10px -15px 10px 30px;
       transition: all 0.2s ease-in 0s;
+      cursor: pointer;
+      a {
+        display: inline-block;
+      }
     }
-
     .icon {
+      text-align: center;
       color: white;
       font-size: 35px;
     }

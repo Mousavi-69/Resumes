@@ -24,6 +24,7 @@
   padding-right: 100px;
   background-color: rgb(255, 255, 255);
   overflow: hidden;
+  box-shadow: 0px 0px 29px 0px rgb(134 134 134 / 25%);
   img {
     width: 150px;
     height: 145%;

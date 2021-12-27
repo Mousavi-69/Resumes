@@ -25,13 +25,13 @@
 
     &:hover {
       img {
-        transform: scale(1.2);
+        transform: scale(1.25);
         transition: all 0.3s ease-out 0.15s;
       }
       .title {
         background-color: #754ef9;
         color: white;
-        transition: all 0.3s ease-out 0.15s;
+        transition: all 0.3s ease-out 0s;
       }
     }
   }

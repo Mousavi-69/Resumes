@@ -10,18 +10,24 @@ const id_btn = "#";
       <h1 class="title">سلام وقت بخیر</h1>
       <h1>من محمد سنجرموسوی هستم</h1>
       <p>
-        من یک طراح و توسعه دهنده سمت کاربر مستقل و آزاد، مستقر در مشهد هستم. من
-        در تلاشم تا از طریق کد دقیق، تمیز و کاربر محور، برنامه های کاربردی وب
-        همه جانبه و زیبا بسازم.
+        من یک توسعه دهنده وب (سمت کاربر) مستقل و علاقه مند به کارم هستم.<br />
+        توسعه دهندگان وب فرآیند‌های مربوط به چیدمان و عملکرد وب سایت‌ها و وب
+        اپلیکیشن ها را کنترل می‌کنند. من با به کار گیری تکنیک های فنی، معماری
+        کد، پکیج های مختلف و رعایت اصول کد تمیز و کاربر محور در ساختار پروژه
+        هایم ، مهارت ها و دانش لازم را برای موفقیت پروژه شما کسب کرده ام.
       </p>
-      <buttonVue class="btn" :text="text_btn" :id="id_btn"
-          :width-btn="200"
-          :height-btn="55"
-          :bg-color="'#754ef9'"
-          :text-color="'white'"
-          :hover-bg-color="'white'"
-          :hover-text-color="'754ef9'"
-          :border-color="'#754ef9'"></buttonVue>
+      <buttonVue
+        class="btn"
+        :text="text_btn"
+        :id="id_btn"
+        :width-btn="200"
+        :height-btn="55"
+        :bg-color="'#754ef9'"
+        :text-color="'white'"
+        :hover-bg-color="'white'"
+        :hover-text-color="'754ef9'"
+        :border-color="'#754ef9'"
+      ></buttonVue>
     </div>
     <div class="content-left">
       <div class="picther">
@@ -33,11 +39,9 @@ const id_btn = "#";
 <style scoped lang="scss">
 .container {
   color: $primaryColor;
-  padding: 30px;
+  padding: 10px 100px 30px 150px;
   background-color: #f7f7f7;
   display: flex;
-  padding-left: 150px;
-  padding-right: 100px;
   align-items: center;
   .content-right {
     padding-left: 150px;
@@ -50,6 +54,7 @@ const id_btn = "#";
       color: $primaryColor;
       font-size: 1.8rem;
       font-weight: 600;
+      margin-top: -50px;
     }
     p {
       margin-bottom: 40px;
@@ -57,10 +62,9 @@ const id_btn = "#";
       color: rgb(65, 65, 65);
       line-height: 30px;
     }
-    .btn {
-    }
   }
   .content-left {
+    margin-top: -15px;
     .picther {
       position: relative;
       img {

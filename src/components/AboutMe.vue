@@ -11,8 +11,11 @@ const customTextSizeChart = 13;
 </script>
 <template>
   <section class="container">
-    <h2>درباره من</h2>
-    <h4>من کارهای زیبا را پیاده سازی می کنم و کاری را که می کنم دوست دارم.</h4>
+    <h2>مهارت ها</h2>
+    <h4>
+      " من برنامه نویسی <span> Front-End </span> را تحت فریم ورک قدرتمند
+      <span>Vue.js</span> انجام میدهم "
+    </h4>
     <div class="section">
       <div class="content-right">
         <h1>برنامه نویس سمت کاربر<span>(Front-End)</span></h1>
@@ -22,32 +25,20 @@ const customTextSizeChart = 13;
           من مهارت ها و دانش لازم را برای موفقیت پروژه شما کسب کردم.
         </p>
         <ul class="list-contentUs">
-          <li class="list">
+          <li class="list adress">
             <div class="contentUs">
               <div class="icon-parent">
-                <fa class="icon" :icon="['far', 'calendar-alt']" />
+                <fa class="icon" :icon="['fas', 'map-marker-alt']" />
               </div>
               <div class="text">
                 <p>
-                  <span>تاریخ تولد:</span>
-                  8 مرداد 1369
+                  <span>آدرس:</span>
+                  مشهد - خیابان سیدرضی
                 </p>
               </div>
             </div>
           </li>
-          <li class="list">
-            <div class="contentUs">
-              <div class="icon-parent">
-                <fa class="icon" :icon="['far', 'envelope']" />
-              </div>
-              <div class="text">
-                <p>
-                  <span>ایمیل:</span>
-                  m.sanjarmoosavi@gmail.com
-                </p>
-              </div>
-            </div>
-          </li>
+
           <li class="list">
             <div class="contentUs">
               <div class="icon-parent">
@@ -61,15 +52,34 @@ const customTextSizeChart = 13;
               </div>
             </div>
           </li>
-          <li class="list">
+          <li class="list email">
             <div class="contentUs">
               <div class="icon-parent">
-                <fa class="icon" :icon="['fas', 'map-marker-alt']" />
+                <fa class="icon" :icon="['far', 'envelope']" />
               </div>
               <div class="text">
                 <p>
-                  <span>آدرس:</span>
-                  مشهد - خیابان سیدرضی
+                  <span>ایمیل:</span>
+                  m.sanjarmoosavi@gmail.com
+                </p>
+              </div>
+            </div>
+          </li>
+
+          <li class="list">
+            <div class="contentUs">
+              <div class="icon-parent">
+                <fa class="icon git" :icon="['fab', 'github']" />
+              </div>
+              <div class="text">
+                <p>
+                  <span>گیت هاب:</span>
+                  <a
+                    class="link"
+                    href="https://github.com/Mousavi-69"
+                    title="ریپازیتوری گیت هاب "
+                    >Mousavi-69</a
+                  >
                 </p>
               </div>
             </div>
@@ -77,7 +87,7 @@ const customTextSizeChart = 13;
         </ul>
       </div>
 
-      <section  class="content-left">
+      <section class="content-left">
         <chart
           :percent="73"
           :customPercentSize="customPercentSizeChart"
@@ -207,9 +217,9 @@ const customTextSizeChart = 13;
   padding-top: 90px;
   padding-bottom: 100px;
   text-align: center;
-  h2{
-      font-size: 2rem;
-    }
+  h2 {
+    font-size: 2rem;
+  }
   .section {
     display: flex;
     padding-top: 50px;
@@ -219,9 +229,9 @@ const customTextSizeChart = 13;
   }
 }
 .content-right {
-  width: 50%;
+  width: 68%;
   padding-right: 100px;
-  padding-left:2px;
+  padding-left: 2px;
   h1 {
     text-align: start;
     span {
@@ -243,7 +253,11 @@ const customTextSizeChart = 13;
     display: flex;
     flex-wrap: wrap;
     .list {
-      min-width: 230px;
+      min-width: 250px;
+    }
+    .adress,
+    .email {
+      min-width: 350px;
     }
     .contentUs {
       display: flex;
@@ -252,9 +266,13 @@ const customTextSizeChart = 13;
       .icon-parent {
         display: flex;
         justify-content: center;
-        align-items:center ;
+        align-items: center;
         .icon {
           color: $primaryColor;
+          font-size: 1.1rem;
+        }
+        .git {
+          font-size: 1.4rem !important;
         }
       }
       .text {
@@ -269,6 +287,14 @@ const customTextSizeChart = 13;
             padding-left: 5px;
           }
         }
+
+        .link {
+          text-decoration: none;
+          color: rgb(90, 90, 90);
+          &:hover {
+            color: $primaryColor;
+          }
+        }
       }
     }
   }
@@ -279,7 +305,7 @@ const customTextSizeChart = 13;
   justify-content: center;
   align-items: center;
   gap: 10px;
-  padding-left: 5px;
-  padding-top: 45px;
+  padding-left: 80px;
+  padding-top: 70px;
 }
 </style>

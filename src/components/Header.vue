@@ -1,17 +1,14 @@
-<script setup lang="ts">
-
-
-</script>
+<script setup lang="ts"></script>
 <template>
   <nav class="header">
     <!-- <fa class="menue" :icon="['fas', 'bars']" /> -->
     <ul class="list">
-      <li><a href="#Introduction">خانه</a></li>
-      <li><a href="#AboutMe">درباره من</a></li>
+      <li><a href="#Introduction">درباره من</a></li>
+      <li><a href="#AboutMe">مهارت ها</a></li>
       <li><a href="#MyService">خدمات</a></li>
       <li><a href="#MyPortfolio">نمونه کار</a></li>
       <li><a href="#Tutorials">آموزش ها</a></li>
-      <li><a href="#MyArticles">مقالات من</a></li>
+      <li><a href="#MyArticles">مقالات </a></li>
       <li><a href="#Communication">تماس</a></li>
     </ul>
     <img src="@/assets/images/logo.png" />
@@ -82,7 +79,5 @@
     height: 30px;
     text-align: center;
   }
-  
 }
- 
 </style>

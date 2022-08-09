@@ -19,11 +19,12 @@ const customTextSizeChart = 13;
     <div class="section">
       <div class="content-right">
         <h1>برنامه نویس سمت کاربر<span>(Front-End)</span></h1>
-        <p>
-          نام من برنارد سیدنی است. من یک توسعه دهنده وب هستم ، و بسیار علاقه مند
-          به کارهایم هستم. با 20 سال تجربه به عنوان یک توسعه دهنده حرفه ای وب ،
-          من مهارت ها و دانش لازم را برای موفقیت پروژه شما کسب کردم.
-        </p>
+        <p class="subtitle"> Html5, Css3, ES6, Typescript</p>
+        <p class="subtitle">PostCss و پیش پردازنده  Sass</p>
+        <p class="subtitle">فریم ورک های Css همچون: Tailwindcss,Bootstrap</p>
+        <p class="subtitle">کتابخانه های Vuex,Pinia,VueRouter,Dexie, Eslint</p>
+        <p class="subtitle">ServiceWorker, PWA , Vite, Quasar, Webpack And other BuildTools</p>
+
         <ul class="list-contentUs">
           <li class="list adress">
             <div class="contentUs">
@@ -239,10 +240,10 @@ const customTextSizeChart = 13;
       padding-right: 5px;
     }
   }
-  p {
+  .subtitle {
     text-align: start;
     padding-left: 50px;
-
+    padding-bottom: 5px;
     font-size: 1.3rem;
     color: rgb(90, 90, 90);
     line-height: 25px;

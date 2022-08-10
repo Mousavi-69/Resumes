@@ -1,18 +1,41 @@
 <script setup lang="ts">
-import TutorialsComponent from './ShapeComponent/TutorialsComponent.vue';</script>
+import TutorialsComponent from "./ShapeComponent/TutorialsComponent.vue";
+</script>
 <template>
   <div class="container">
     <div class="title">
-      <h2>آموزش ها</h2>
-      <h4>
-        من کارهای زیبا را طراحی و کد می کنم و کاری را که می کنم دوست دارم.
-      </h4>
+      <h2>آموزش ها</h2
+      >
+     
     </div>
     <div class="tutorials">
-<TutorialsComponent></TutorialsComponent>
-<TutorialsComponent></TutorialsComponent>
-<TutorialsComponent></TutorialsComponent>
-
+      <TutorialsComponent
+        :title="'علوم شناختی'"
+        :description="' و ببیبسبییبتوضیحات دوره متنی حد اکثر دو خطی می باشد که در مورد کلیات و هدف دوره است'"
+        :price="'150000'"
+        :section1="'پشتیبانی'"
+        :section2="'دسترسی به مقالات'"
+        :section3="'ضمانت بازگشت وجه تا 10 روز'"
+        :section4="'هدیه:تم علوم شناختی'"
+      ></TutorialsComponent>
+     <TutorialsComponent
+        :title="'علوم شناختی'"
+        :description="'توضیحات دوره'"
+        :price="'150000'"
+        :section1="'پشتیبانی'"
+        :section2="'دسترسی به مقالات'"
+        :section3="'ضمانت بازگشت وجه تا 10 روز'"
+        :section4="'هدیه:تم علوم شناختی'"
+      ></TutorialsComponent>
+       <TutorialsComponent
+        :title="'علوم شناختی'"
+        :description="'توضیحات دوره'"
+        :price="'150000'"
+        :section1="'پشتیبانی'"
+        :section2="'دسترسی به مقالات'"
+        :section3="'ضمانت بازگشت وجه تا 10 روز'"
+        :section4="'هدیه:تم علوم شناختی'"
+      ></TutorialsComponent>
     </div>
   </div>
 </template>
@@ -20,18 +43,18 @@ import TutorialsComponent from './ShapeComponent/TutorialsComponent.vue';</scrip
 .container {
   background-color: #f7f7f7;
   text-align: center;
- .title{
-     padding-top: 90px;
-     h2{
+  .title {
+    padding-top: 75px;
+    h2 {
       font-size: 2rem;
     }
- }
+  }
 }
-.tutorials{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 35px;
-    padding: 5px 100px 50px 100px;
+.tutorials {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 35px;
+  padding: 5px 100px 50px 100px;
 }
 </style>
